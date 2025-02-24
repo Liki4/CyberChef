@@ -1,5 +1,8 @@
 version: "1"
 rules:
+  - base: master
+    upstream: gchq:master
+    mergeMethod: hardreset
   - base: gh-pages
     upstream: gchq:gh-pages
     mergeMethod: hardreset
